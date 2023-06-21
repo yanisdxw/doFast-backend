@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    name: test
+    url:  jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: Dxw314159
+    driver-class-name: com.mysql.jdbc.Driver

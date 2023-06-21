@@ -1,0 +1,9 @@
+# 主配置文件主要用来存放公共设置，不受环境配置影响
+server:
+  port: 8080 # 指定端口号
+
+spring:
+  profiles:
+    active: prod
+  application:
+    name: base
